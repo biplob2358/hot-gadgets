@@ -2,8 +2,9 @@
   height: 40px;
 }
 .navbar {
-  background-color: aliceblue;
+  background-color: rgb(165, 207, 243);
   font-weight: bold;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .slider {
@@ -37,4 +38,66 @@
 }
 #product a {
   text-decoration: none;
+}
+.cat {
+  text-align: center;
+  --color: rgb(224, 120, 0);
+  --position: center bottom;
+  --width: 100px;
+  --height: 5px;
+  background: linear-gradient(var(--color), var(--color)) var(--position) /
+    var(--width) var(--height) no-repeat;
+  padding-bottom: 10px;
+  font: bold 2.5rem sans-serif;
+}
+
+.categories {
+  margin-top: 70px;
+}
+
+.cate img {
+  width: 100%;
+}
+
+.cat1 img {
+  margin-top: 20px;
+  width: 90px;
+}
+.cat2,
+.cat3,
+.cat1 {
+  background-color: aliceblue;
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 20px;
+}
+
+.cat2,
+.cat3,
+.cat1 img {
+  width: 200px;
+}
+.cat1 {
+  margin: 50px;
+  padding-left: 10px;
+  text-align: center;
+}
+.cat3 {
+  margin-top: 20px;
+  text-align: center;
+}
+.cat2 {
+  text-align: center;
+  padding-top: 20px;
+}
+.about {
+  text-align: center;
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+  margin: 0%;
+}
+footer {
+  text-align: center;
+  background-color: rgb(219, 106, 0);
+  color: white;
+  margin-top: 0%;
 }
