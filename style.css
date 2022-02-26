@@ -1,0 +1,32 @@
+.navbar img {
+  height: 40px;
+}
+.navbar {
+  background-color: aliceblue;
+  font-weight: bold;
+}
+
+.slider {
+  background-image: url("images/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: aliceblue;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.container {
+  margin-bottom: 100px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.card-body {
+  text-align: center;
+}
+.card {
+  box-shadow: 10px 10px 20px gray;
+  background-color: aliceblue;
+}
