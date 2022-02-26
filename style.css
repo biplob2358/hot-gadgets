@@ -30,3 +30,11 @@
   box-shadow: 10px 10px 20px gray;
   background-color: aliceblue;
 }
+#product h6 {
+  text-align: right;
+  color: orange;
+  margin-bottom: 10px;
+}
+#product a {
+  text-decoration: none;
+}
